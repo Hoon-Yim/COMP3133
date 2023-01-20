@@ -3,8 +3,8 @@ const csvParser = require("csv-parser");
 
 PATH = `${__dirname}`;
 countriesPATH = PATH + "\\input_countries.csv";
-canadaPATH = PATH + "\\canada.txt";
-usaPATH = PATH + "\\usa.txt";
+canadaPATH = PATH + "\\canada.csv";
+usaPATH = PATH + "\\usa.csv";
 
 // remove canada.txt and usa.txt if exist
 fs.stat(canadaPATH, (err, stats) => {
